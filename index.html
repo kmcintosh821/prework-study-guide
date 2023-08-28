@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <header id="top">
@@ -17,9 +18,9 @@
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
+          <li>Elements that contain other elements are "parent" elements, whereas the elements inside them are "child" elements.</li>
         </ul>
-
-        Elements that contain other elements are "parent" elements, whereas the elements inside them are "child" elements.
+        <br>
 
         <h3>Available head elements:</h3>
         <ul>
@@ -30,20 +31,41 @@
           <li>link element: connects an external resource to the HTML doc</li>
           <li>script element: embeds client-side scripts in the HTML document</li>
         </ul>
+        <br>
 
         <h3>Available body elements:</h3>
         <ul>
-          <li>h1 thru h6 elements: various levels of heading text, from largest to smallest</li>
+          <li>h1 thru h6 elements: various levels of heading text, from largest to smallest (on this page, the page title is a h1 header, "HTML" is a h2 header, and "Available body elements" is a h3 header!)</li>
           <li>p element: paragraph text</li>
-          <li>ul and ol elements: unordered (bulleted) and ordered (numbered) lists</li>
-          <li>li element: a list item, used as a child element of the above list elements</li>
+          <li>ul and ol elements: unordered (bulleted) and ordered (numbered) lists (these notes are in ul tags!)</li>
+          <li>li element: a list item, used as a child element of the above list elements (like this one!)</li>
           <li>img element: an image (the src attribute points to the URL for the link)</li>
-          <li>br element: a line break, or a line of empty space</li>
+          <li>br element: a line break, or a line of empty space (that's why these notes aren't all scrunched on each other!)</li>
           <li>a element: an anchor element, which creates links to certain webpages (points to an URL using the href attribute)</li>
         </ul>
       </section>
 
       <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>CSS rules change the appearance of HTML elements.</li>
+          <li>They can be applied to elements across the whole page, by using the element without any brackets or punctuation as your selector.</li>
+          <li>They can also affect personally-defined classes, by using the class name with a period (.classname) as the selector.</li>
+          <li>In order: selector {declaration-property-1: declaration-value-1; property-2: value-2;}</li>
+        </ul>
+        <br>
+
+        <h3>Potential CSS rule properties:</h3>
+        <ul>
+          <li>Margin, border, padding: the structural parts of a CSS "box". Can be defined by pixels or percentages!</li>
+          <li>Width, height: the size of the actual content, the centermost element of the CSS box. Also can be pixels or percents!</li>
+          <li>display: How the content fits into the box -- when an image is set to display: block, it starts on a new line</li>
+          <li>-left, -right, -top, -bottom: Added to structural parts to define more specific aspects of them, such as margin-right or padding-left</li>
+          <li>font-size: The size of the font, by height in pixels.</li>
+          <li>color, background-color: Defines the text or background's color! Can be semantic colors or hex codes.</li>
+          <li>box-shadow: Makes the box pop! Can be defined by x and y offsets, as well as the color of the shadow. Blur and spread radius are also potential attributes!</li>
+
+        </ul>
 
       </section>
 
